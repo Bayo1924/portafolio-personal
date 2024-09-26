@@ -1,0 +1,34 @@
+:root{
+    --white: #FFF;
+    --black: #000;  
+    --back-color: rgb(246, 246, 246);
+    --back-highlighted: rgb(232, 232, 232);
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--back-color);
+}
+
+li, a{
+    list-style: none;
+    text-decoration: none;
+}
