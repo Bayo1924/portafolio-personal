@@ -1,0 +1,56 @@
+.project__wrapper-card{
+    margin-top: 1.25rem;
+}
+
+.cardProject:not(:last-child){
+    margin-bottom: 4rem;
+}
+
+.cardProject__title{
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: -.025rem;
+}
+
+.cardProject__description{
+    margin-top: .5rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    letter-spacing: -.025rem;
+    color: rgb(147, 147, 147);
+    text-wrap: balance;
+    line-height: 1.4;
+}
+
+.cardProject__wrapper-technology{
+    max-width: 85%;
+    margin-top: 1.25rem;
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+}
+
+.cardProject__technology{
+    background-color: var(--back-highlighted);
+    color: rgb(77, 77, 77);
+    border-radius: .3rem;
+    padding: .2rem 1rem .15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: -.02rem;
+}
+
+.cardProject__img{
+    margin-top: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cardProject__video{
+    margin-top: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

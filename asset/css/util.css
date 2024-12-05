@@ -1,5 +1,21 @@
 .container{
-    max-width: 65rem;
+    max-width: 60rem;
     margin: 0 auto;
     padding: 0 1.5rem;
+}
+
+.title-section{
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: -.03rem;
+}
+
+.subtitle-section{
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: -.025rem;
+}
+
+.section-highlight{
+    margin-top: 6rem;
 }
